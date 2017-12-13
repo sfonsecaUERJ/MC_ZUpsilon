@@ -88,7 +88,7 @@ process.generator = cms.EDFilter("Pythia8GeneratorFilter",
             'MultipartonInteractions:expPow=1.6'),
         processParameters = cms.vstring('Main:timesAllowErrors    = 10000', 
             'HiggsSM:all=true',
-            '300553:new = 300553 Upsilon(4S) 3 0 0 1.0579400e+01 0,0205 10.4769 10.6819 0.0000000e+00',  
+            '300553:new = 300553 Upsilon(4S) 3 0 0 1.0579400e+01 0.0205 10.4769 10.6819 0.0000000e+00',  
             #particle: id="200553" name="Upsilon(3S)" spinType="3" chargeType="0" colType="0" m0="10.3552" mWidth="0.00002" mMin="10.3552" mMax="10.3552"   
             '300553:addChannel = 1 0.96  0  511   -511', # BBbar
             '300553:addChannel = 1 0.514 0  521   -521', # B+B-
